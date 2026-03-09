@@ -50,34 +50,37 @@ As variáveis finais utilizadas foram:
 
 ### 2. Principais Visualizações
 
+Nesta seção, apresentamos os indicadores visuais consolidados para o município de Bezerros/PE, permitindo identificar os perfis de vulnerabilidade e a dinâmica das violações registradas.
+
 #### 2.1 Distribuição por Grupo Vulnerável
-Crianças, adolescentes e pessoas idosas emergem como os públicos com maior volume de notificações no período analisado.
+O volume total de denúncias revela que crianças, adolescentes e pessoas idosas emergem como os públicos com maior concentração de registros no período analisado.
 
 ![Denúncias por Grupo Vulnerável](plots/Rplot.png)
 
-#### 2.2 Natureza das Violações
-A análise revela que as violências de caráter **Físico** e **Psíquico** são as mais prevalentes entre as denúncias registradas.
+#### 2.2 Natureza e Tipos de Violações
+A análise da natureza das agressões aponta que as violências de caráter **Físico** e **Psíquico** são as mais prevalentes. O detalhamento dos tipos específicos permite identificar vulnerabilidades acentuadas em cada grupo assistido.
 
-![Natureza das Violações](plots/Rplot01.png)
+![Natureza das Violações](plots/Rplot1.png)
+![Top 10 Tipos Específicos](plots/Rplot2.png)
+![Perfil de Violência por Grupo](plots/Rplot3.png)
 
-![Natureza das Violações2](plots/Rplot02.png)
+#### 2.3 Perfil das Vítimas (Demografia e Etnia)
+A pirâmide etária destaca picos críticos de vulnerabilidade, com atenção especial à primeira infância e à população idosa feminina. A ordenação cronológica foi ajustada para refletir a base da pirâmide (recém-nascidos) até o topo (90+).
 
-#### 2.3 Perfil Demográfico (Pirâmide Etária)
-A pirâmide etária destaca picos críticos de vulnerabilidade, com atenção especial à primeira infância e à população idosa. A ordenação cronológica foi ajustada para refletir a base da pirâmide (recém-nascidos) até o topo (90+).
-
-![Pirâmide Etária](plots/Rplot03.png)
-
-![](plots/Rplot04.png)
-
-![](plots/Rplot05.png)
+![Perfil Demográfico das Vítimas](plots/Rplot4.png)
+![Perfil Étnico-Racial](plots/Rplot5.png)
 
 #### 2.4 Vínculo Vítima-Suspeito e Cenário
-Os dados apontam que a violência em Bezerros é predominantemente **doméstica e intrafamiliar**, ocorrendo na maioria das vezes dentro da residência e cometida por familiares próximos (como filhos e mães).
+Os dados confirmam que a violência no município é predominantemente **doméstica e intrafamiliar**. A maioria das agressões ocorre dentro da residência e é cometida por familiares com vínculos diretos (como filhos e mães).
 
-![Vinculo](plots/Rplot06.png)
-![Cenários de Ocorrência](plots/Rplot07.png)
+![Principais Vínculos do Suspeito](plots/Rplot6.png)
+![Cenários de Ocorrência](plots/Rplot7.png)
 
-### 3 Conclusão
+---
+
+### 3. Conclusão
+
+O diagnóstico realizado rrevela um cenário de alta vulnerabilidade doméstica em Bezerros/PE, com uma taxa de **932,2 denúncias por 100 mil habitantes**. A predominância de agressores familiares dentro do ambiente residencial reforça a necessidade de fortalecer as redes de proteção locais (CRAS/CREAS) e promover canais de denúncia acessíveis e seguros para as vítimas.
 
 ---
 

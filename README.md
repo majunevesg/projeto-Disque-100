@@ -1,84 +1,64 @@
-# 📊 Análise de Dados do Disque 100 – Violações de Direitos Humanos
+# 📊 Análise de Dados: Disque 100 – Direitos Humanos (Bezerros/PE)
 
-Este projeto apresenta uma **análise exploratória de dados das denúncias registradas no Disque 100**, canal do Governo Federal destinado ao recebimento de denúncias de violações de direitos humanos no Brasil.
+> **Análise exploratória das denúncias de violações de direitos humanos registradas no 2º semestre de 2025.**
 
-O objetivo é **identificar padrões, grupos vulneráveis e tipos de violações mais frequentes**, contribuindo para o entendimento da dinâmica dessas ocorrências e para o desenvolvimento de políticas públicas baseadas em evidências.
-
----
-
-## 📚 Sobre o Disque 100
-
-O **Disque 100** é um serviço nacional de denúncias que recebe registros de violações relacionadas a diferentes grupos vulneráveis, como:
-
-- Crianças e adolescentes  
-- Pessoas idosas  
-- Pessoas com deficiência  
-- População LGBTQIA+  
-- População em situação de rua  
-- Mulheres  
-
-As denúncias podem ser realizadas **anonimamente** e são encaminhadas para órgãos responsáveis pela apuração.
-
-Fonte: Ministério dos Direitos Humanos e da Cidadania.
+Este projeto apresenta um diagnóstico detalhado das denúncias captadas pelo **Disque 100**, canal do Governo Federal para o recebimento de violações de direitos humanos. O foco da análise concentra-se no município de **Bezerros, Pernambuco**, transformando dados brutos em indicadores para o entendimento da dinâmica social local.
 
 ---
 
-## 🎯 Objetivos da análise
+## 🎯 Objetivos da Análise
 
-Este projeto busca responder perguntas como:
+Diferente de registros criminais estritos, o Disque 100 funciona como um **indicador antecedente**, captando violências antes mesmo de se tornarem boletins de ocorrência. Esta análise busca responder:
 
-- Quais **grupos vulneráveis** concentram mais denúncias?
-- Quais são os **tipos de violação mais frequentes**?
-- Como as denúncias se distribuem **geograficamente**?
-- Existem padrões relevantes que possam apoiar **diagnósticos sociais ou políticas públicas**?
-
----
-
-## 🛠️ Ferramentas utilizadas
-
-- **R**
-- **tidyverse**
-- **ggplot2**
-- **dplyr**
-- **readr**
-- **RMarkdown**
+* Quais **grupos vulneráveis** (Crianças, Idosos, LGBTQIA+, etc.) concentram mais denúncias?
+* Quais são as **naturezas de violação** mais frequentes na região?
+* Como os dados podem apoiar **políticas públicas de prevenção** e diagnósticos sociais?
 
 ---
 
-## 📊 Exemplos de análises realizadas
+## 🛠️ Ferramentas Utilizadas
 
-- Distribuição das denúncias por **grupo vulnerável**
-- Frequência dos **tipos de violação**
-- Análise exploratória das variáveis disponíveis
-- Visualização gráfica das ocorrências
+O projeto foi desenvolvido inteiramente em **R**, utilizando as seguintes bibliotecas:
+
+* `tidyverse` (Manipulação e visualização)
+* `dplyr` & `readr` (Processamento de dados)
+* `ggplot2` (Gráficos e visualizações)
+* `RMarkdown` (Documentação e relatórios)
 
 ---
 
-## 📂 Estrutura do projeto
+## 📂 Metodologia e Dados
 
-## Coleta de dados e limpeza dos dados
+Os dados brutos foram obtidos através do portal de [Dados Abertos do MDH](https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100).
 
-Os dados estão disponiveis no site do gov e podem ser obtidos semestralmente. Os dados dessa estudo em questão foram obtidos utilizando o segundo semestre de 2025.
-O banco de dados possui 2421688 observações e 62 variáveis. Inicialmente filtramos o estado Pernambuco e posteriormente escolhemos a cidade de Bezerros para esta análise.
+* **Recorte Temporal:** 2º Semestre de 2025.
+* **Volume Original:** ~2,4 milhões de observações e 62 variáveis.
+* **Tratamento:** Filtragem específica para o estado de **Pernambuco** e o município de **Bezerros**.
 
-dá para tirar muita coisa útil do Disque 100, especialmente para um relatório de prevenção da violência. 
-Na verdade, ele pode ser uma das melhores bases complementares, porque capta violência antes de virar crime registrado ou morte.
-Lembrando que não é possivel fazer inferencias sobre esses dados, uma vez que
-Os dados refletem denúncias registradas e podem estar sujeitos a subnotificação e variações na propensão à denúncia.
+> [!IMPORTANT]
+> **Nota Metodológica:** Os dados refletem denúncias registradas e estão sujeitos a subnotificação. Como dependem da propensão à denúncia, não devem ser interpretados como uma medida absoluta da criminalidade, mas sim como um termômetro da percepção e incidência de violações relatadas.
 
-## Análise descritiva
+---
 
-## Conclusão
+## 📊 Estrutura do Projeto
 
-## Próximos passos
+1.  **Coleta e Limpeza:** Script para importação dos dados governamentais e aplicação de filtros geográficos.
+2.  **Análise Descritiva:** Identificação de padrões por tipo de vítima e tipo de violação.
+3.  **Visualização:** Geração de gráficos para facilitar a interpretação dos dados por gestores públicos.
+4.  **Conclusão:** Síntese dos achados e recomendações.
 
-Pode ser interessante fazer a analise conjnta de algumas cidades e dessa maneira fazer uma analise espacial
+---
 
-## Referências
+## 🚀 Próximos Passos
 
-https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100
+* [ ] **Análise Espacial:** Realizar análise conjunta de cidades vizinhas do Agreste para identificar clusters de violência.
+* [ ] **Cruzamento de Dados:** Comparar os índices do Disque 100 com indicadores socioeconômicos (IDH/IBGE).
 
+---
 
+## 🔗 Referências
+
+* [Ministério dos Direitos Humanos e da Cidadania - Dados Abertos](https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100)
 
 
 

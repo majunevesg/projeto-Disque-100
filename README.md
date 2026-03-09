@@ -53,22 +53,29 @@ As variáveis finais utilizadas foram:
 #### 2.1 Distribuição por Grupo Vulnerável
 Crianças, adolescentes e pessoas idosas emergem como os públicos com maior volume de notificações no período analisado.
 
-![Denúncias por Grupo Vulnerável](plots/denuncias_grupo.png)
+![Denúncias por Grupo Vulnerável](plots/Rplot.png)
 
 #### 2.2 Natureza das Violações
 A análise revela que as violências de caráter **Físico** e **Psíquico** são as mais prevalentes entre as denúncias registradas.
 
-![Natureza das Violações](plots/natureza_violacao.png)
+![Natureza das Violações](plots/Rplot01.png)
+
+![Natureza das Violações2](plots/Rplot02.png)
 
 #### 2.3 Perfil Demográfico (Pirâmide Etária)
 A pirâmide etária destaca picos críticos de vulnerabilidade, com atenção especial à primeira infância e à população idosa. A ordenação cronológica foi ajustada para refletir a base da pirâmide (recém-nascidos) até o topo (90+).
 
-![Pirâmide Etária](plots/perfil_demografico.png)
+![Pirâmide Etária](plots/Rplot03.png)
+
+![](plots/Rplot04.png)
+
+![](plots/Rplot05.png)
 
 #### 2.4 Vínculo Vítima-Suspeito e Cenário
 Os dados apontam que a violência em Bezerros é predominantemente **doméstica e intrafamiliar**, ocorrendo na maioria das vezes dentro da residência e cometida por familiares próximos (como filhos e mães).
 
-![Cenários de Ocorrência](plots/cenarios_ocorrencia.png)
+![Vinculo](plots/Rplot06.png)
+![Cenários de Ocorrência](plots/Rplot07.png)
 
 ### 3 Conclusão
 

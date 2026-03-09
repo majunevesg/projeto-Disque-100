@@ -60,21 +60,21 @@ O volume total de denúncias revela que crianças, adolescentes e pessoas idosas
 #### 2.2 Natureza e Tipos de Violações
 A análise da natureza das agressões aponta que as violências de caráter **Físico** e **Psíquico** são as mais prevalentes. O detalhamento dos tipos específicos permite identificar vulnerabilidades acentuadas em cada grupo assistido.
 
-![Natureza das Violações](plots/Rplot1.png)
-![Top 10 Tipos Específicos](plots/Rplot2.png)
-![Perfil de Violência por Grupo](plots/Rplot3.png)
+![Natureza das Violações](plots/Rplot01.png)
+![Top 10 Tipos Específicos](plots/Rplot02.png)
+![Perfil de Violência por Grupo](plots/Rplot03.png)
 
 #### 2.3 Perfil das Vítimas (Demografia e Etnia)
 A pirâmide etária destaca picos críticos de vulnerabilidade, com atenção especial à primeira infância e à população idosa feminina. A ordenação cronológica foi ajustada para refletir a base da pirâmide (recém-nascidos) até o topo (90+).
 
-![Perfil Demográfico das Vítimas](plots/Rplot4.png)
-![Perfil Étnico-Racial](plots/Rplot5.png)
+![Perfil Demográfico das Vítimas](plots/Rplot04.png)
+![Perfil Étnico-Racial](plots/Rplot05.png)
 
 #### 2.4 Vínculo Vítima-Suspeito e Cenário
 Os dados confirmam que a violência no município é predominantemente **doméstica e intrafamiliar**. A maioria das agressões ocorre dentro da residência e é cometida por familiares com vínculos diretos (como filhos e mães).
 
-![Principais Vínculos do Suspeito](plots/Rplot6.png)
-![Cenários de Ocorrência](plots/Rplot7.png)
+![Principais Vínculos do Suspeito](plots/Rplot06.png)
+![Cenários de Ocorrência](plots/Rplot07.png)
 
 ---
 

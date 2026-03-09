@@ -86,7 +86,7 @@ O diagnóstico realizado rrevela um cenário de alta vulnerabilidade doméstica 
 
 ## 🚀 Próximos Passos
 
-* [ ] **Análise Espacial:** Realizar análise conjunta de cidades vizinhas do Agreste para identificar clusters de violência.
+* [ ] **Análise Espacial:** Realizar análise espacial com cidades vizinhas.
 * [ ] **Cruzamento de Dados:** Comparar os índices do Disque 100 com indicadores socioeconômicos (IDH/IBGE).
 
 ---
